@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+main {
+    margin: auto;
+}
+
+h1 {
+    margin: 30px;
+}
+h2 {
+    font-size: x-large;
+}
+
+h3 {
+    font-size: medium;
+    margin: 10px auto;
+}
+
+#home {
+    max-width: 600px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: 20px auto;
+  }
+  
+  img {
+    max-width: 220px;
+    max-height: 150px;
+  }
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+
+  footer {
+    padding: 20px;
+    text-align: center;
+    margin: 30px auto;
+  }
+
+  footer img  {
+    margin-left: 100px;
+    max-width: 36px;
+}
+
+.contato {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.contato li {
+    list-style: none;
+}
+
+.curso {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.curso p {
+    margin-bottom: 20px;
+}
+
+.curso li {
+    list-style: none;
+    margin: 20px;
+}
+
+.curso .ementa a {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
