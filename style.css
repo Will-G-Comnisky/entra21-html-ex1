@@ -68,8 +68,18 @@ figure {
   }
 
   footer img  {
-    margin-left: 100px;
     max-width: 36px;
+}
+
+.container-icons {
+    list-style: none;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.container-icons li {
+    display: inline-block;
+    margin: 0 10px;
 }
 
 .contato {
